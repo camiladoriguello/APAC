@@ -1,0 +1,25 @@
+#main-header {
+    width: 100%;
+    position: fixed;
+    z-index: 9000;
+}
+
+#header-div {
+    background-color: coral;
+}
+
+.associationName {
+    text-align: center;
+}
+
+.text {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#adress {
+    font-weight: bold;
+}
+
+body {
+    background-color: ghostwhite;
+}
