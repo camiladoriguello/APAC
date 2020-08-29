@@ -8,9 +8,8 @@
     background-color: coral;
 }
 
-.associationName {
+h1 {
     text-align: center;
-    text-underline-offset: inherit;
 }
 
 .text {
