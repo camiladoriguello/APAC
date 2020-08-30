@@ -12,11 +12,29 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+#combo-header-logo {
+    display: inline-block;
+    text-align: left;
+    float: left;
+}
+
+#combo-header-logo a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: 'Lucida Sans';
+    font-weight: bold;
+}
+
 #header-logo {
     display: inline-block;
-    max-width: 40px;
-    max-height: 30px;
+    max-width: 80px;
+    max-height: 60px;
     text-align: left;
+    float: left;
+}
+
+.menu {
+    float: left;
 }
 
 .menu ul {
