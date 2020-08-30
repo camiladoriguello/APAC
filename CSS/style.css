@@ -1,47 +1,88 @@
 * {
+    /* reset das configurações da página */
     margin: 0;
     padding: 0;
 }
 
 .header {
+    /* configurações do cabeçalho */
     width: 100%;
-}
-
-.menu {
     background-color: #002b80;
-    text-align: center;
-    height: 50px;
-}
-
-.menu ul li {
-    display: inline-block;
-    color: #FFFFFF;
+    height: 60px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 1%;
-}
-
-.menu ul li a {
-    display: block;
-    color: #FFFFFF;
-    padding: 30px 10px;
 }
 
 #header-logo {
-    position: initial;
+    display: inline-block;
     max-width: 40px;
     max-height: 30px;
-    width: auto;
-    height: auto;
+    text-align: left;
+}
+
+.menu ul {
+    list-style: none;
+    position: relative;
+    background-color: #002b80;
+}
+
+.menu ul li {
+    /* configurações da lista do menu*/
+    display: inline;
+    float: left;
+}
+
+.menu a {
+    /* configurações do link no menu */
+    padding: 15px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+label[for="btn-menu-responsive"] {
+    padding: 5px;
+    color: #FFFFFF;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    display: none;
+}
+
+#btn-menu-responsive {
+    display: none;
+}
+
+@media(max-width: 800px) {
+    label[for="btn-menu-responsive"] {
+        display: block;
+    }
+    #btn-menu-responsive:checked~.menu {
+        margin-left: 0;
+    }
+    .menu ul li {
+        width: 100%;
+        float: none;
+        background-color: #002b80;
+    }
+    .menu {
+        margin-top: 5px;
+        margin-left: -200%;
+        transition: all .4s;
+    }
+    #header {
+        background-color: none;
+    }
 }
 
 .main {
     padding: 50px 0;
 }
 
-.institution {
-    text-align: center;
-}
-
+.institution,
 p {
     text-align: center;
 }
