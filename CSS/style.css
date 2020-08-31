@@ -1,18 +1,17 @@
 * {
-    /* reset das configurações da página */
     margin: 0;
     padding: 0;
 }
 
 .header {
-    /* configurações do cabeçalho */
     width: 100%;
     background-color: #002b80;
-    height: 60px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 50px;
+    font-family: 'Lucida Sans';
 }
 
-#combo-header-logo {
+
+/*#combo-header-logo {
     display: inline-block;
     text-align: left;
     float: left;
@@ -31,21 +30,26 @@
     max-height: 60px;
     text-align: left;
     float: left;
-}
+}*/
 
 .menu {
-    float: left;
+    /*característica geral do menu*/
+    width: 100%;
+    height: 50px;
+    background-color: #002b80;
+    font-family: 'Lucida Sans';
 }
 
 .menu ul {
+    /*características lista menu*/
     list-style: none;
     position: relative;
     background-color: #002b80;
 }
 
 .menu ul li {
-    /* configurações da lista do menu*/
-    display: inline;
+    /* características itens do menu*/
+    width: 150px;
     float: left;
 }
 
@@ -54,19 +58,39 @@
     padding: 15px;
     display: block;
     text-decoration: none;
+    /*tirar a linha do link*/
     text-align: center;
+    background-color: #002b80;
     color: #FFFFFF;
+}
+
+.menu ul ul {
+    position: absolute;
+    visibility: hidden;
+}
+
+.menu ul li:hover ul {
+    visibility: visible;
+}
+
+.menu a:hover {
+    background-color: #eff0f1;
+    color: #002b80;
+}
+
+.menu ul ul li {
+    float: none;
 }
 
 label[for="btn-menu-responsive"] {
     padding: 5px;
     color: #FFFFFF;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans';
     text-align: center;
     font-size: 30px;
     cursor: pointer;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     display: none;
 }
 
@@ -75,20 +99,29 @@ label[for="btn-menu-responsive"] {
 }
 
 @media(max-width: 800px) {
-    label[for="btn-menu-responsive"] {
-        display: block;
-    }
-    #btn-menu-responsive:checked~.menu {
-        margin-left: 0;
-    }
     .menu ul li {
         width: 100%;
         float: none;
         background-color: #002b80;
     }
+    .menu ul ul {
+        position: static;
+        overflow: hidden;
+        max-height: 0;
+        transition: all .4s;
+    }
+    .menu ul li:hover ul {
+        height: auto;
+        max-height: 200px;
+    }
+    label[for="btn-menu-responsive"] {
+        display: block;
+    }
+    #btn-menu-responsive:checked~.menu {
+        margin-left: 0px;
+    }
     .menu {
-        margin-top: 5px;
-        margin-left: -200%;
+        margin-left: -100%;
         transition: all .4s;
     }
     #header {
