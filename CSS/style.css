@@ -98,7 +98,7 @@ label[for="btn-menu-responsive"] {
     display: none;
 }
 
-@media handheld and (max-width: 1000px) {
+@media screen and (max-width: 1000px) {
     .menu ul li {
         width: 100%;
         float: none;
