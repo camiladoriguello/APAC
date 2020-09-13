@@ -1,0 +1,12 @@
+#title-fundacao {
+    color: #002b80;
+    text-align: center;
+    padding: 30px;
+}
+
+p#p01 {
+    width: 70%;
+    float: left;
+    font-size: 20px;
+    text-align: justify;
+}
