@@ -8,10 +8,11 @@
 }
 
 p {
-    font-size: 20px;
+    font-size: 15px;
     text-align: justify;
     width: 70%;
     padding: 20px;
+    font-family: 'Lucida Sans';
 }
 
 p#p01,
@@ -28,18 +29,36 @@ p#p-footer {
     margin: 0;
 }
 
-.img-fundacao {
+#img-apac-fundacao {
     width: 300;
     height: 150;
+    padding: 5px;
+}
+
+#img-apac-fundacao-2 {
+    width: 300;
+    height: 200;
     padding: 5px;
 }
 
 .canal-doacao {
     background-color: #eff0f1;
     display: inline-block;
-    width: 45%;
+    width: 43%;
     height: 80px;
     margin: 10px;
     padding: 20px;
     text-align: center;
+    border-radius: 10px;
+    border: 2px solid #002b80;
+    font-family: 'Lucida Sans';
+}
+
+.atividade {
+    width: 30%;
+    height: 150px;
+    border: 2px solid #002b80;
+    background-color: #eff0f1;
+    float: left;
+    margin: 15px;
 }
