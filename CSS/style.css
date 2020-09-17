@@ -139,8 +139,11 @@ p {
 .footer {
     background-color: #eff0f1;
     text-align: center;
-    width: 95%;
+    width: 100%;
     padding: 30px;
+    text-align: center;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
 body {

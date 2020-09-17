@@ -8,10 +8,11 @@
 }
 
 p {
+    margin: 20px;
     font-size: 15px;
     text-align: justify;
     width: 70%;
-    padding: 20px;
+    /*padding: 20px;*/
     font-family: 'Lucida Sans';
 }
 
@@ -46,19 +47,32 @@ p#p-footer {
     display: inline-block;
     width: 43%;
     height: 80px;
-    margin: 10px;
+    margin: 22px;
     padding: 20px;
     text-align: center;
-    border-radius: 10px;
     border: 2px solid #002b80;
     font-family: 'Lucida Sans';
 }
 
 .atividade {
-    width: 30%;
-    height: 150px;
-    border: 2px solid #002b80;
     background-color: #eff0f1;
-    float: left;
-    margin: 15px;
+    display: inline-block;
+    width: 25%;
+    height: 150px;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #002b80;
+}
+
+.atividade:hover {
+    background-color: #eff0f1;
+    display: inline-block;
+    width: 25%;
+    height: 200px;
+    margin: 30px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #002b80;
+    transition: all .9s;
 }
