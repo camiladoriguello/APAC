@@ -2,18 +2,24 @@
 #title-atividades,
 #title-doacao {
     color: #002b80;
-    text-align: center;
     padding: 30px;
-    padding-top: 100px;
+    padding-top: 50px;
+}
+
+h1,
+h2 {
+    font-family: 'Poppins', sans-serif;
+    size: 5px;
 }
 
 p {
     margin: 20px;
-    font-size: 15px;
+    font-size: 16.4px;
     text-align: justify;
     width: 70%;
     /*padding: 20px;*/
     font-family: 'Lucida Sans';
+    color: dimgrey;
 }
 
 p#p01,
@@ -62,7 +68,6 @@ p#p-footer {
     margin: 30px;
     padding: 20px;
     text-align: center;
-    border: 2px solid #002b80;
 }
 
 .atividade:hover {
@@ -73,6 +78,5 @@ p#p-footer {
     margin: 30px;
     padding: 20px;
     text-align: center;
-    border: 2px solid #002b80;
-    transition: all .9s;
+    transition: all .7s;
 }
