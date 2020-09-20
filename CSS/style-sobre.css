@@ -47,8 +47,8 @@ a.word-bold {
 @media screen and (max-width: 1000px) {
     #p01,
     #p02 {
-        width: 100%;
-        margin: 5px;
+        width: 90%;
+        margin: 10px;
         display: block;
     }
     #img-p01 {

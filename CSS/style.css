@@ -140,6 +140,13 @@ img#header-infos-img {
     padding-top: 20px;
 }
 
+@media screen and (max-width: 1000px) {
+    img#header-infos-img {
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+
 div#div-header {
     padding-top: 20px;
 }
