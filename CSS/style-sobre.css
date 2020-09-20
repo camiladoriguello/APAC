@@ -1,63 +1,54 @@
-#title-fundacao,
-#title-atividades,
-#title-doacao {
+/*Configuração dos títulos e parágrafos*/
+
+h1.title {
     color: #002b80;
     padding: 30px;
+    padding-left: 20px;
     padding-top: 50px;
-}
-
-h1,
-h2 {
     font-family: 'Poppins', sans-serif;
     size: 5px;
 }
 
 p {
-    margin: 20px;
+    padding: 20px;
     font-size: 16.4px;
     text-align: justify;
-    width: 70%;
-    /*padding: 20px;*/
     font-family: 'Lucida Sans';
     color: dimgrey;
 }
 
-p#p01,
-p#p02 {
+a.word-bold {
+    color: #002b80;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+/*Configuração da Section Sobre*/
+
+#p01,
+#p02 {
     float: left;
+    width: 70%;
 }
 
-p#p-atividades {
-    width: 100%;
-    text-align: center;
-}
-
-p#p-footer {
-    margin: 0;
-}
-
-#img-apac-fundacao {
-    width: 300;
-    height: 150;
-    padding: 5px;
-}
-
-#img-apac-fundacao-2 {
+#img-p01 {
     width: 300;
     height: 200;
     padding: 5px;
 }
 
-.canal-doacao {
-    background-color: #eff0f1;
-    display: inline-block;
-    width: 43%;
-    height: 80px;
-    margin: 22px;
-    padding: 20px;
-    text-align: center;
-    border: 2px solid #002b80;
-    font-family: 'Lucida Sans';
+#img-p02 {
+    width: 300;
+    height: 340;
+    padding: 5px;
+}
+
+
+/*Configuração da Section Atividade*/
+
+div#atividades-info {
+    margin: 30px;
+    display: block;
 }
 
 .atividade {
@@ -68,6 +59,8 @@ p#p-footer {
     margin: 30px;
     padding: 20px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #002b80;
 }
 
 .atividade:hover {
@@ -79,4 +72,19 @@ p#p-footer {
     padding: 20px;
     text-align: center;
     transition: all .7s;
+}
+
+
+/*Configuração da Section Doação*/
+
+.canal-doacao {
+    background-color: #eff0f1;
+    display: inline-block;
+    width: 43%;
+    height: 80px;
+    margin: 22px;
+    padding: 20px;
+    text-align: center;
+    border: 2px solid #002b80;
+    font-family: 'Lucida Sans';
 }
