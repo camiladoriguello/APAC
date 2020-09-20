@@ -76,14 +76,6 @@ p.p-box-atividade {
     color: dimgray;
 }
 
-img.img-atv {
-    width: 120px;
-    height: 0px;
-    padding: 0px;
-    visibility: inherit;
-    opacity: 0%;
-}
-
 .atividade:hover .img-atv {
     width: 120px;
     height: 60px;
@@ -93,18 +85,34 @@ img.img-atv {
     transition: all 2s;
 }
 
+img.img-atv {
+    width: 120px;
+    height: 0px;
+    padding: 0px;
+    visibility: inherit;
+    opacity: 0%;
+}
+
 
 /*Configuração da Section Doação*/
 
 .canal-doacao {
     display: inline-block;
     width: 43%;
-    height: 80px;
+    height: 100px;
     margin: 22px;
     padding: 20px;
     text-align: center;
-    font-family: 'Lucida Sans';
-    color: dimgrey;
+    font-family: 'Poppins', sans-serif;
+    color: #3071ba;
+    border: .1px solid #3071ba;
+}
+
+p.p-box-doacao {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lucida Sans', sans-serif;
+    color: dimgray;
 }
 
 .canal-doacao:hover {
