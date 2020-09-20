@@ -2,9 +2,9 @@
 
 h1.title {
     color: #002b80;
-    padding: 30px;
+    padding: 20px;
     padding-left: 20px;
-    padding-top: 50px;
+    padding-top: 40px;
     font-family: 'Poppins', sans-serif;
     size: 5px;
 }
@@ -52,7 +52,6 @@ div#atividades-info {
 }
 
 .atividade {
-    background-color: #eff0f1;
     display: inline-block;
     width: 25%;
     height: 150px;
@@ -60,31 +59,38 @@ div#atividades-info {
     padding: 20px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
-    color: #002b80;
+    color: #3071ba;
 }
 
 .atividade:hover {
-    background-color: #eff0f1;
-    display: inline-block;
-    width: 25%;
     height: 200px;
-    margin: 30px;
-    padding: 20px;
-    text-align: center;
     transition: all .7s;
+    border: .1px solid #dedede;
+}
+
+p.p-box-atividade {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lucida Sans';
+    color: dimgray;
 }
 
 
 /*Configuração da Section Doação*/
 
 .canal-doacao {
-    background-color: #eff0f1;
     display: inline-block;
     width: 43%;
     height: 80px;
     margin: 22px;
     padding: 20px;
     text-align: center;
-    border: 2px solid #002b80;
     font-family: 'Lucida Sans';
+    color: dimgrey;
+}
+
+.canal-doacao:hover {
+    height: 100px;
+    transition: all .7s;
+    border: .1px solid #dedede;
 }
