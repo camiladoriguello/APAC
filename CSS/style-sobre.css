@@ -99,7 +99,7 @@ img.img-atv {
 .canal-doacao {
     display: inline-block;
     width: 43%;
-    height: 100px;
+    height: 130px;
     margin: 22px;
     padding: 20px;
     text-align: center;
@@ -116,7 +116,6 @@ p.p-box-doacao {
 }
 
 .canal-doacao:hover {
-    height: 100px;
     transition: all .7s;
     border: .1px solid #dedede;
 }
