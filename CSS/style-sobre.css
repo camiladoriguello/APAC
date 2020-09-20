@@ -48,14 +48,14 @@ a.word-bold {
     #p01,
     #p02 {
         width: 100%;
-        margin: 30px;
+        margin: 15px;
         display: block;
     }
     #img-p01 {
-        margin: 30%;
+        margin: 15%;
     }
     #img-p02 {
-        margin: 30%;
+        margin: 15%;
     }
 }
 
