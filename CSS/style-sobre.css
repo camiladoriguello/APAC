@@ -44,18 +44,18 @@ a.word-bold {
     padding: 5px;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 500px) {
     #p01,
     #p02 {
-        width: 90%;
-        margin: 10px;
+        width: 85%;
+        margin: 2%;
         display: block;
     }
     #img-p01 {
-        margin: 5%;
+        margin: 12%;
     }
     #img-p02 {
-        margin: 5%;
+        margin: 12%;
     }
 }
 
@@ -108,6 +108,31 @@ img.img-atv {
     opacity: 0%;
 }
 
+@media screen and (max-width: 500px) {
+    .atividade {
+        display: block;
+        width: 80%;
+        height: 30px;
+        margin: 4%;
+        padding: 20px;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+        color: #3071ba;
+        border: .1px solid #3071ba;
+    }
+    p.p-atividae {
+        width: 85%;
+        margin: 2%;
+        display: block;
+    }
+    p.p-box-atividade {
+        visibility: hidden;
+    }
+    .atividade:hover .p-box-atividade {
+        visibility: visible;
+    }
+}
+
 
 /*Configuração da Section Doação*/
 
@@ -133,4 +158,13 @@ p.p-box-doacao {
 .canal-doacao:hover {
     transition: all .7s;
     border: .1px solid #dedede;
+}
+
+@media screen and (max-width: 500px) {
+    .canal-doacao {
+        display: block;
+        width: 80%;
+        height: 160px;
+        margin: 4%;
+    }
 }
