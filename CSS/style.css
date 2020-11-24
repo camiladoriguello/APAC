@@ -216,6 +216,7 @@ button.btn-delete {
     padding: 5px;
     font-size: 15px;
     cursor: pointer;
+    margin-top: 20px;
 }
 
 button.btn-edit {
@@ -228,4 +229,5 @@ button.btn-edit {
     padding: 5px;
     font-size: 15px;
     cursor: pointer;
+    margin-top: 20px;
 }

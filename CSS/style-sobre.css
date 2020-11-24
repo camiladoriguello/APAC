@@ -13,7 +13,7 @@ p {
     padding: 20px;
     font-size: 16.4px;
     text-align: justify;
-    font-family: 'Lucida Sans', thin;
+    font-family: 'Lucida Sans', sans-serif;
     /*font-family: 'Montserrat', sans-serif;*/
     color: dimgrey;
 }

@@ -1,0 +1,29 @@
+div.div-post{
+    margin: 5px;
+}
+
+textarea.conteudo{
+    border: solid 1.5px #002b80;
+    width: 200px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+.titulo{
+    border: solid 1.5px #002b80;
+    width: 200px;
+    font-family: 'Lucida Sans', sans-serif;
+}
+
+@media screen and (max-width: 500px) {
+    textarea.conteudo{
+       height: 20px;
+    }
+    
+    .titulo{
+        height: 20px;
+    }
+
+    div.atividade{
+        height: 100px;
+    }
+}
